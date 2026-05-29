@@ -1,0 +1,17 @@
+{
+  "name": "devalito67_tgc-core",
+  "version": "0.1.0",
+  "description": "Universal TCG engine — plug your rules, cards and UI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["tcg", "card-game", "engine", "typescript"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
